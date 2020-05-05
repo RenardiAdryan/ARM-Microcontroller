@@ -1,2 +1,2 @@
 # ARM-Microcontroller
-it provide examples of my vairous projects
+it provide examples of my various projects
