@@ -1,0 +1,15 @@
+--cpu Cortex-M4.fp
+".\objects\main.o"
+".\objects\config.o"
+".\objects\delay.o"
+".\objects\misc.o"
+".\objects\stm32f4xx_gpio.o"
+".\objects\stm32f4xx_rcc.o"
+".\objects\stm32f4xx_tim.o"
+".\objects\stm32f4xx_usart.o"
+".\objects\startup_stm32f40_41xxx.o"
+".\objects\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter ".\Objects\Usart.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Usart.map" -o .\Objects\Usart.axf
